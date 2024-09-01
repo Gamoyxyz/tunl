@@ -53,7 +53,7 @@ fn link(_: Request, cx: RouteContext<Config>) -> Result<Response> {
         let config = json!({
             "ps": "tunl",
             "v": "2",
-            "add": "162.159.16.149",
+            "add": "15.235.162.49",
             "port": "80",
             "id": uuid,
             "aid": "0",
